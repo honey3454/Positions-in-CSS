@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Positioning</title>
+  <style>
+    .box {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    #A {
+      background: red;
+      top: 200px;
+      left: 200px;
+    }
+
+   
+    #B {
+      background: blue;
+      top: 170px; /* 200-30*/
+      left: 170px;/* 200-30*/
+    }
+
+    #C {
+      background: green;
+      top: 170px;/* 200-30*/
+      left:230px; /* 200+30*/
+    }
+
+    #D {
+      background: orange;
+      top: 230px; /* 200-30*/
+      left:170px;/* 200-30*/
+    }
+
+    #E {
+      background: purple;
+      top: 230px;/* 200+30*/
+      left:230px;/* 200+30*/
+    }
+  </style>
+</head>
+<body>
+  
+    <div id="A" class="box">A</div>
+    <div id="B" class="box">B</div>
+    <div id="C" class="box">C</div>
+    <div id="D" class="box">D</div>
+    <div id="E" class="box">E</div>
+  
+</body>
+</html>
