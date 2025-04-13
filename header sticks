@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sticky Header</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+
+    /* Sticky Header */
+    .header {
+      background-color: #1c1b1b;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+
+    .logo {
+      font-weight: bold;
+    }
+
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+
+    .nav-links a {
+      color: #ccc;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+
+    .nav-links a:hover {
+      color: white;
+    }
+
+
+    .get-started {
+      background-color: #ffc107;
+      color: black;
+      padding: 6px 14px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 20px;
+    }
+
+
+    /* Content for scroll testing */
+    .content {
+      padding: 30px 40px;
+    }
+
+
+    .content h2 {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <header class="header">
+    <div class="logo">LOGO</div>
+    <nav class="nav-links">
+      <a href="https://github.com/honey3454/More-on-Css-Assignment">Home</a>
+      <a href="https://github.com/honey3454/More-on-Css-Assignment">Pricing</a>
+      <a href="https://github.com/honey3454/More-on-Css-Assignment">Contact</a>
+      <a href="https://github.com/honey3454/More-on-Css-Assignment">Terms and Condition</a>
+      <a href="https://github.com/honey3454/More-on-Css-Assignment" class="get-started">Get Started</a>
+    </nav>
+  </header>
+
+
+  <div class="content">
+    <h1>Heading 1</h1>
+    <p>Physics Wallah Limited (commonly known as Physics Wallah; or simply PW) is an Indian multinational educational technology company headquartered in Noida, Uttar Pradesh. The company was founded by Alakh Pandey in 2016 as a YouTube channel aimed at teaching the physics curriculum for the Joint Entrance Examinations (JEE), National Eligibility cum Entrance Test (NEET) and CBSE board examinations.As the channel beagan to gain more viewership, Alakh Pandey also started to post chemistry content. In 2020, Pandey, along with his co-founder Prateek Maheshwari created the Physics Wallah app, which allowed students to access courses related to the National Eligibility cum Entrance Test (NEET) and Joint Entrance Exam (JEE). PW became India's first Edtech company to achieve a unicorn status in 2022.[1] As of September 2024, the company is valued at around $2.8 billion.[2] Physics Wallah confidentially filed draft papers for a $530M IPO in March 2025.[3]
+
+
+        History
+        Physics Wallah, was founded in 2016 as a YouTube channel hosted by Alakh Pandey, an educator hailing from Prayagraj, Uttar Pradesh. The channel was initially focused on teaching the physics curriculum for the Joint Entrance Examinations (JEE), a popular entrance examination in India.[4] Due to Pandey's style of teaching,[4][5] the channel grew rapidly, reaching over 2 million followers in 2019.[6] In 2020, Pandey along with co-founder Prateek Maheshwari developed the Physics Wallah app.[5] The app was initially designed for students aspiring to take the National Eligibility cum Entrance Test (NEET) and Joint Entrance Exam (JEE)[7][8] and offered courses similar to those of competing companies at an affordable rate.[9] Over the next few years, Physics Wallah expanded their offerings by launching courses for other competitive exams.[10]
+       
+        As of February 2025, the Physics Wallah app had been downloaded over 10 million times on the Android Play Store. The Physics Wallah YouTube channel amassed 13.3 million subscribers during the same period.[11] In June 2022, the company became a unicorn company after being valued at over $1.1 billion following its first funding round where it raised $100 million in funding from various venture capital firms.[12] During the same time, PW also launched its first offline center named Vidyapeeth in Kota, Rajasthan.[13][14] By November 2023, Physics Wallah had expanded to 67 offline centers in 34 cities across India.[15] However, in the same month, Physics Wallah laid off 150 employees, amounting to 0.8% of its workforce, citing performance reasons.[15]
+       
+        In September 2024, the company raised $210 million in funding at $2.8 billion valuation.[16]
+       
+        Controversies
+        Allegations by teachers
+        In March 2023, several teachers at the ed-tech company alleged that the vision of the company was being disillusioned and in response started an independent YouTube channel by the name, 'Sankalp Bharat'.[17][18] Through a video uploaded on the same YouTube channel, they delved into the reasons behind their departure from Physics Wallah, citing the company's atmosphere as the primary factor. Additionally, they alleged that students at the Kota center of Physics Wallah were not receiving an education that justified the tuition fees being charged.[19][18]
+       
+        In response, a teacher of the company, Pankaj Sijariya, alleged in a video that the three ex-PW teachers – Tarun Kumar, Manish Dubey, and Sarvesh Dixit were offered Rs 5 crore each to resign from Physics Wallah and join the rival company, Adda247.[20] The three teachers, in a video claimed that Pankaj Sijairya accused them of accepting bribes from rival platform Adda247.[21] The company has refused to comment on the validity of the claims and in a statement to Business Today called the allegations a "distraction".[22]
+       
+        Acquisitions and expansions
+        In August 2022, Physics Wallah acquired FreeCo, a doubt-solving platform and marked it as their first acquisition.[23][24][25] Later the same year, Physics Wallah acquired multiple startups that focused on publishing books aimed at helping students prepare for various competitive exams.[26] Physics Wallah also acquired iNeuron from S. Chand Group during the same time.[27] In 2023, Physics Wallah acquired 50% stake from Xylem Learning a hybrid education platform in South India.[28]
+       
+        In December 2024, Government of Andhra Pradesh and Physics Wallah, have signed a Memorandum of Understanding (MoU) to establish the University of Innovation (UoI).[29]
+       
+        In popular culture
+        A 6-episode web series named Physics Wallah on the life of Alakh Pandey (portrayed by Shreedhar Dubey) and his company was released on 15 December 2022 on Amazon Mini TV. The series was created, directed and produced by Abhishek Dhandharia, under his production house, About Films.[30]
+       
+        See also
+        Unacademy
+        Byju's
+        Education in India
+       uary 2023). "PhysicsWallah CEO Alakh Pandey started his career at the age of 22, check his education qualification and more". TimesNow. Retrieved 21 December 2023.
+         </p>
+    <h2>Heading 2</h2>
+    <p>Physics Wallah Limited (commonly known as Physics Wallah; or simply PW) is an Indian multinational educational technology company headquartered in Noida, Uttar Pradesh. The company was founded by Alakh Pandey in 2016 as a YouTube channel aimed at teaching the physics curriculum for the Joint Entrance Examinations (JEE), National Eligibility cum Entrance Test (NEET) and CBSE board examinations.As the channel beagan to gain more viewership, Alakh Pandey also started to post chemistry content. In 2020, Pandey, along with his co-founder Prateek Maheshwari created the Physics Wallah app, which allowed students to access courses related to the National Eligibility cum Entrance Test (NEET) and Joint Entrance Exam (JEE). PW became India's first Edtech company to achieve a unicorn status in 2022.[1] As of September 2024, the company is valued at around $2.8 billion.[2] Physics Wallah confidentially filed draft papers for a $530M IPO in March 2025.[3]
+
+
+        History
+        Physics Wallah, was founded in 2016 as a YouTube channel hosted by Alakh Pandey, an educator hailing from Prayagraj, Uttar Pradesh. The channel was initially focused on teaching the physics curriculum for the Joint Entrance Examinations (JEE), a popular entrance examination in India.[4] Due to Pandey's style of teaching,[4][5] the channel grew rapidly, reaching over 2 million followers in 2019.[6] In 2020, Pandey along with co-founder Prateek Maheshwari developed the Physics Wallah app.[5] The app was initially designed for students aspiring to take the National Eligibility cum Entrance Test (NEET) and Joint Entrance Exam (JEE)[7][8] and offered courses similar to those of competing companies at an affordable rate.[9] Over the next few years, Physics Wallah expanded their offerings by launching courses for other competitive exams.[10]
+       
+        As of February 2025, the Physics Wallah app had been downloaded over 10 million times on the Android Play Store. The Physics Wallah YouTube channel amassed 13.3 million subscribers during the same period.[11] In June 2022, the company became a unicorn company after being valued at over $1.1 billion following its first funding round where it raised $100 million in funding from various venture capital firms.[12] During the same time, PW also launched its first offline center named Vidyapeeth in Kota, Rajasthan.[13][14] By November 2023, Physics Wallah had expanded to 67 offline centers in 34 cities across India.[15] However, in the same month, Physics Wallah laid off 150 employees, amounting to 0.8% of its workforce, citing performance reasons.[15]
+       
+        In September 2024, the company raised $210 million in funding at $2.8 billion valuation.[16]
+       
+        Controversies
+        Allegations by teachers
+        In March 2023, several teachers at the ed-tech company alleged that the vision of the company was being disillusioned and in response started an independent YouTube channel by the name, 'Sankalp Bharat'.[17][18] Through a video uploaded on the same YouTube channel, they delved into the reasons behind their departure from Physics Wallah, citing the company's atmosphere as the primary factor. Additionally, they alleged that students at the Kota center of Physics Wallah were not receiving an education that justified the tuition fees being charged.[19][18]
+       
+        In response, a teacher of the company, Pankaj Sijariya, alleged in a video that the three ex-PW teachers – Tarun Kumar, Manish Dubey, and Sarvesh Dixit were offered Rs 5 crore each to resign from Physics Wallah and join the rival company, Adda247.[20] The three teachers, in a video claimed that Pankaj Sijairya accused them of accepting bribes from rival platform Adda247.[21] The company has refused to comment on the validity of the claims and in a statement to Business Today called the allegations a "distraction".[22]
+       
+        Acquisitions and expansions
+        In August 2022, Physics Wallah acquired FreeCo, a doubt-solving platform and marked it as their first acquisition.[23][24][25] Later the same year, Physics Wallah acquired multiple startups that focused on publishing books aimed at helping students prepare for various competitive exams.[26] Physics Wallah also acquired iNeuron from S. Chand Group during the same time.[27] In 2023, Physics Wallah acquired 50% stake from Xylem Learning a hybrid education platform in South India.[28]
+       
+        In December 2024, Government of Andhra Pradesh and Physics Wallah, have signed a Memorandum of Understanding (MoU) to establish the University of Innovation (UoI).[29]
+       
+        In popular culture
+        A 6-episode web series named Physics Wallah on the life of Alakh Pandey (portrayed by Shreedhar Dubey) and his company was released on 15 December 2022 on Amazon Mini TV. The series was created, directed and produced by Abhishek Dhandharia, under his production house, About Films.[30]
+       
+        See also
+        Unacademy
+        Byju's
+        Education in India
+        References
+         " the unassuming underdog among ed-tech firms in India". Business Standard.
+         Majumdar, Debleena (22 November 2022). "What does it take to create Bharat's education lab: The story of PhysicsWallah, building on trust". The Economic Times.
+      </p>
+    <h2>Heading 3</h2>
+    <p>Physics Wallah Limited (commonly known as Physics Wallah; or simply PW) is an Indian multinational educational technology company headquartered in Noida, Uttar Pradesh. The company was founded by Alakh Pandey in 2016 as a YouTube channel aimed at teaching the physics curriculum for the Joint Entrance Examinations (JEE), National Eligibility cum Entrance Test (NEET) and CBSE board examinations.As the channel beagan to gain more viewership, Alakh Pandey also started to post chemistry content. In 2020, Pandey, along with his co-founder Prateek Maheshwari created the Physics Wallah app, which allowed students to access courses related to the National Eligibility cum Entrance Test (NEET) and Joint Entrance Exam (JEE). PW became India's first Edtech company to achieve a unicorn status in 2022.[1] As of September 2024, the company is valued at around $2.8 billion.[2] Physics Wallah confidentially filed draft papers for a $530M IPO in March 2025.[3]
+
+
+        History
+        Physics Wallah, was founded in 2016 as a YouTube channel hosted by Alakh Pandey, an educator hailing from Prayagraj, Uttar Pradesh. The channel was initially focused on teaching the physics curriculum for the Joint Entrance Examinations (JEE), a popular entrance examination in India.[4] Due to Pandey's style of teaching,[4][5] the channel grew rapidly, reaching over 2 million followers in 2019.[6] In 2020, Pandey along with co-founder Prateek Maheshwari developed the Physics Wallah app.[5] The app was initially designed for students aspiring to take the National Eligibility cum Entrance Test (NEET) and Joint Entrance Exam (JEE)[7][8] and offered courses similar to those of competing companies at an affordable rate.[9] Over the next few years, Physics Wallah expanded their offerings by launching courses for other competitive exams.[10]
+       
+        As of February 2025, the Physics Wallah app had been downloaded over 10 million times on the Android Play Store. The Physics Wallah YouTube channel amassed 13.3 million subscribers during the same period.[11] In June 2022, the company became a unicorn company after being valued at over $1.1 billion following its first funding round where it raised $100 million in funding from various venture capital firms.[12] During the same time, PW also launched its first offline center named Vidyapeeth in Kota, Rajasthan.[13][14] By November 2023, Physics Wallah had expanded to 67 offline centers in 34 cities across India.[15] However, in the same month, Physics Wallah laid off 150 employees, amounting to 0.8% of its workforce, citing performance reasons.[15]
+       
+        In September 2024, the company raised $210 million in funding at $2.8 billion valuation.[16]
+       
+        Controversies
+        Allegations by teachers
+        In March 2023, several teachers at the ed-tech company alleged that the vision of the company was being disillusioned and in response started an independent YouTube channel by the name, 'Sankalp Bharat'.[17][18] Through a video uploaded on the same YouTube channel, they delved into the reasons behind their departure from Physics Wallah, citing the company's atmosphere as the primary factor. Additionally, they alleged that students at the Kota center of Physics Wallah were not receiving an education that justified the tuition fees being charged.[19][18]
+       
+        In response, a teacher of the company, Pankaj Sijariya, alleged in a video that the three ex-PW teachers – Tarun Kumar, Manish Dubey, and Sarvesh Dixit were offered Rs 5 crore each to resign from Physics Wallah and join the rival company, Adda247.[20] The three teachers, in a video claimed that Pankaj Sijairya accused them of accepting bribes from rival platform Adda247.[21] The company has refused to comment on the validity of the claims and in a statement to Business Today called the allegations a "distraction".[22]
+       
+        Acquisitions and expansions
+        In August 2022, Physics Wallah acquired FreeCo, a doubt-solving platform and marked it as their first acquisition.[23][24][25] Later the same year, Physics Wallah acquired multiple startups that focused on publishing books aimed at helping students prepare for various competitive exams.[26] Physics Wallah also acquired iNeuron from S. Chand Group during the same time.[27] In 2023, Physics Wallah acquired 50% stake from Xylem Learning a hybrid education platform in South India.[28]
+       
+        In December 2024, Government of Andhra Pradesh and Physics Wallah, have signed a Memorandum of Understanding (MoU) to establish the University of Innovation (UoI).[29]
+       
+        In popular culture
+        A 6-episode web series named Physics Wallah on the life of Alakh Pandey (portrayed by Shreedhar Dubey) and his company was released on 15 December 2022 on Amazon Mini TV. The series was created, directed and produced by Abhishek Dhandharia, under his production house, About Films.[30]
+       
+        See also
+        Unacademy
+        Byju's
+        Education in India
+        </p>
+  </div>
+
+
+</body>
+</html>
