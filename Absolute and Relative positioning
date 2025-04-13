@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Relative vs Absolute Positioning with Shadow</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .explanation {
+      max-width: 700px;
+      margin-bottom: 30px;
+      background: #f9f9f9;
+      padding: 15px 20px;
+      border-left: 4px solid #007bff;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      border: 2px solid black;
+      margin: 40px 0;
+      position: relative;
+      background-color: #fff;
+    }
+
+    .relative-box {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      position: relative;
+      top: 20px;
+      left: 20px;
+      line-height: 100px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .absolute-box {
+      width: 100px;
+      height: 100px;
+      background-color: lightcoral;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      line-height: 100px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🔍 Relative vs Absolute Positioning in CSS</h1>
+
+  <div class="explanation">
+    <p><strong>Relative Positioning:</strong> An element with <code>position: relative</code> is moved relative to its normal position. It still occupies space in the layout, and other elements are not affected by its movement.</p>
+
+    <p><strong>Absolute Positioning:</strong> An element with <code>position: absolute</code> is removed from the normal document flow. It is positioned relative to the nearest parent that is not <code>static</code>. It does not occupy space in the layout, so it can overlap other elements.</p>
+  </div>
+
+  <h2>1️⃣ Relative Box Example</h2>
+  <div class="box">
+    <div class="relative-box">Relative</div>
+  </div>
+
+  <h2>2️⃣ Absolute Box Example</h2>
+  <div class="box">
+    <div class="absolute-box">Absolute</div>
+  </div>
+
+</body>
+</html>
+
